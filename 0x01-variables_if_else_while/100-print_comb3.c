@@ -17,7 +17,11 @@ int i, j;
 			{
 				putchar(i + '0');
 				putchar(j + '0');
-				putchar(' ');
+				if (i < 9)
+				{
+					putchar(' ');
+					putchar(',');
+				}
 			}
 		}
 	}
