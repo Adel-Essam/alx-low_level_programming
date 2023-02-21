@@ -9,9 +9,9 @@ int main(void)
 {
 	int i, j;
 
-	for (i = 0 ; i <= 20 ; i++)
+	for (i = 0 ; i <= 100 ; i++)
 	{
-		for (j = 0 ; j <= 20 ; j++)
+		for (j = 0 ; j <= 100 ; j++)
 		{
 			if (i < j)
 			{
@@ -21,7 +21,7 @@ int main(void)
 				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
 
-				if (i < 7)
+				if (i < 99)
 				{
 					putchar(',');
 					putchar(' ');
