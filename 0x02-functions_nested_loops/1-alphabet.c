@@ -4,6 +4,8 @@
  * main - alphabet.
  *
  * Return: Always 0 (Success)
+ *
+ * alpabet description
  */
 void print_alphabet(void)
 {
