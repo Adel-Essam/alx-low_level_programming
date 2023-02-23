@@ -2,9 +2,7 @@
 
 /**
  * _isupper - returns 1 if upper or 0 if not.
- * 
  * @c: the character
- * 
  * Return: Always 0 (Success)
  */
 int _isupper(int c)
