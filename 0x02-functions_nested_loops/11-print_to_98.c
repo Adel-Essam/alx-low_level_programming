@@ -3,7 +3,7 @@
 /**
  * print_to_98 - prints the numbers from n to 98.
  *
- * @n: The first number
+ * @n: The number that user inputs
  *
  * Return: Always 0 (Success)
  */
