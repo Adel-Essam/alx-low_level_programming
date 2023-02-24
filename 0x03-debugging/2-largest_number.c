@@ -9,15 +9,15 @@
  */
 int largest_number(int a, int b, int c)
 {
-int max = a;
+int largest = a;
 
 if (b > a)
 {
-max = b;
+largest = b;
 }
 if (c > a)
 {
-max = c;
+largest = c;
 }
-return (max);
+return (largest);
 }
