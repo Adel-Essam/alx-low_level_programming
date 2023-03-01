@@ -12,8 +12,8 @@ int i;
 i = 0;
 while (i < strlen(str))
 {
-	_putchar(str[i]);
+	putchar(str[i]);
 	i++;
 }
-_putchar('\n');
+putchar('\n');
 }
