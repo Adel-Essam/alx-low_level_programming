@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _puts - the function prints the same string.
  * @str: the input variable
