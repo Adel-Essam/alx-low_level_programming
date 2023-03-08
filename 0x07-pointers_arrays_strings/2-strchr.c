@@ -7,23 +7,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
-boolean bl = 1, bk = 1;
+	unsigned int i = 0;
 
-while (s[i] != '\0')
-{
-if (s[i] != c)
-{
-bl = 0;
-}
-else
-{
-return (c);
-bl = 1;
-bk = 0;
-}
-i++;
-}
-if (bl == 0 && bk == 1)
-return (NULL);
+	for (; *(s + i) != '\0'; i++)
+		if (*(s + i) == c)
+			return (s + i);
+	if (*(s + i) == c)
+		return (s + i);
+	return ('\0');
 }
