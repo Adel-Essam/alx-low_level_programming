@@ -7,10 +7,9 @@
  * @argv: the string paramiter
  * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(int argc__attribute__((unused)), char *argv[])
 {
-printf("%s", argv[0]);
-putchar('\n');
+printf("%s\n", argv[0]);
 return (0);
 }
 
